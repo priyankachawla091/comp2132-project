@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Priyanka Chawla COMP 2132 Assignment</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="styles/style.css" media="all" />
+
+
+
+</head>
+<!--
+Author: Priyanka Chawla
+Date:  19 March 2022
+-->
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                <h1>Dice Game</h1>
+                <div class="gamearea">
+                    <div class="dicearea">
+                        <h3>PLAYER</h3>
+                        <div class="diceresult" id="playerdice">
+                            <div class="fadein" id="playerdice1"></div>
+                            <div class="fadein" id="playerdice2"></div>
+                        </div>
+                        <div class="roundscores">This Round Score<br/><span class="score" id="thisRoundScorePlayer">0</span></div>
+                        <div class="totalscores">Total Score<br/><span class="score" id="totalScorePlayer">0</span></div>
+                    </div>
+                    <div class="dicearea">
+                        <h3>COMPUTER</h3>
+                        <div class="diceresult" id="computerdice">
+                            <div class="fadein" id="computerdice1"></div>
+                            <div class="fadein" id="computerdice2"></div>
+                        </div>
+                        <div class="roundscores">This Round Score<br/><span class="score" id="thisRoundScoreComputer">0</span></div>
+                        <div class="totalscores">Total Score<br/><span class="score" id="totalScoreComputer">0</span></div>
+                    </div>
+                </div>
+                <button class="buttons" id="newGameBtn">NEW GAME</button>
+                <button class="buttons" id="rollDiceBtn">ROLL DICE</button>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
